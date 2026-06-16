@@ -1,0 +1,22 @@
+{
+  "name": "rocketlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddrmy/rocketlog.git"
+  },
+  "author": "Gabriel Sarti",
+  "description": "API de entregas e encomendas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddrmy/rocketlog/issues"
+  },
+  "homepage": "https://github.com/ddrmy/rocketlog#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
