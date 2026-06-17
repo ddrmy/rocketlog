@@ -42,7 +42,9 @@ class SessionsController {
       },
     )
 
-    return response.json({ token })
+    const { password: hashedPassowrd, ...userWithoutPassword } = user
+
+    return response.json({ token, user: userWithoutPassword })
   }
 }
 
